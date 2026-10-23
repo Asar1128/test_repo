@@ -11,7 +11,7 @@ public class HelloController {
     @GetMapping("/hello")
     public Map<String, String> hello() {
         return Map.of(
-                "message", "Deployed by WEBHOOK",
+                "message", "Deployed by WH",
                 "timestamp", Instant.now().toString()
         );
     }
